@@ -1,0 +1,62 @@
+Last login: Tue Jan 12 13:35:00 on ttys000
+Mohameds-MacBook-Pro:iCode-Swift Shafraz$ cd ../
+Mohameds-MacBook-Pro:Projects Shafraz$ ls
+AssemblySMS		SampleSafe		iCodeSwift
+CLF			WFL Installer		iPhone Sample Code
+FishingLanka		avad			iPhone Sample Code.zip
+FishingLanka.zip	iCode			ultranet-ios
+Sample Safe Distro	iCode-Swift
+Mohameds-MacBook-Pro:Projects Shafraz$ cd SampleSafe/
+Mohameds-MacBook-Pro:SampleSafe Shafraz$ ls
+Android		Distribution	GUI
+Api		Docs		iOS
+Mohameds-MacBook-Pro:SampleSafe Shafraz$ ls -al
+total 24
+drwxr-xr-x   9 Shafraz  staff    306 Oct  2 16:30 .
+drwxr-xr-x  17 Shafraz  staff    578 Jan 12 15:18 ..
+-rw-r--r--@  1 Shafraz  staff  10244 Oct  6 20:26 .DS_Store
+drwxr-xr-x  20 Shafraz  staff    680 Sep 16 20:24 Android
+drwxr-xr-x  13 Shafraz  staff    442 Oct  6 20:26 Api
+drwxr-xr-x   4 Shafraz  staff    136 Oct  2 22:05 Distribution
+drwxr-xr-x   4 Shafraz  staff    136 Jan 17  2015 Docs
+drwxrwxrwx  51 Shafraz  staff   1734 Feb 11  2015 GUI
+drwxr-xr-x   7 Shafraz  staff    238 Sep 14 09:17 iOS
+Mohameds-MacBook-Pro:SampleSafe Shafraz$ cd iOS/
+Mohameds-MacBook-Pro:iOS Shafraz$ ls
+SampleSafe		SampleSafe.xcodeproj	SampleSafeTests
+Mohameds-MacBook-Pro:iOS Shafraz$ ls -al
+total 8
+drwxr-xr-x   7 Shafraz  staff  238 Sep 14 09:17 .
+drwxr-xr-x   9 Shafraz  staff  306 Oct  2 16:30 ..
+drwxr-xr-x  15 Shafraz  staff  510 Dec 21 21:56 .git
+-rw-r--r--   1 Shafraz  staff  281 Sep 14 09:17 .gitignore
+drwxr-xr-x  23 Shafraz  staff  782 Dec 21 21:52 SampleSafe
+drwxr-xr-x@  5 Shafraz  staff  170 Dec 21 20:44 SampleSafe.xcodeproj
+drwxr-xr-x   4 Shafraz  staff  136 Sep 21 21:09 SampleSafeTests
+Mohameds-MacBook-Pro:iOS Shafraz$ vi .gitignore 
+
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+# Pods - for those of you who use CocoaPods
+Pods
+~                                                                               
+~                                                                               
+~                                                                               
+".gitignore" 20L, 281C
+
