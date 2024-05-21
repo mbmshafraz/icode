@@ -2,11 +2,10 @@
 //  iCode.h
 //  iCode
 //
-//  Created by Mohamed Shafraz on 12/19/15.
-//  Copyright © 2015 Mohamed Shafraz. All rights reserved.
+//  Created by Mohamed Shafraz on 2024-05-21.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for iCode.
 FOUNDATION_EXPORT double iCodeVersionNumber;

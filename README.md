@@ -1,5 +1,5 @@
 # iCode-Swift
-Open Source iOS library developed in Objective C
+Open Source iOS library developed in Swift
 
 Copyright (c) 2012, Shafraz Buhary All rights reserved.
 
