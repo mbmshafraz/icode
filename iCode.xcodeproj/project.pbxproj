@@ -12,6 +12,9 @@
 		27C122702BFC974600F824AE /* iCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1226F2BFC974600F824AE /* iCodeTests.swift */; };
 		27C122712BFC974600F824AE /* iCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C122632BFC974600F824AE /* iCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27C1227B2BFC9A9B00F824AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 27C1227A2BFC9A9B00F824AE /* README.md */; };
+		27ECFEE22C479EF800A1C51A /* Implies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEE12C479EF800A1C51A /* Implies.swift */; };
+		27ECFEE62C47A5ED00A1C51A /* Implies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEE12C479EF800A1C51A /* Implies.swift */; };
+		27ECFEE82C47A66400A1C51A /* ImpliesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEE72C47A66400A1C51A /* ImpliesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,8 @@
 		27C1226A2BFC974600F824AE /* iCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C1226F2BFC974600F824AE /* iCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCodeTests.swift; sourceTree = "<group>"; };
 		27C1227A2BFC9A9B00F824AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		27ECFEE12C479EF800A1C51A /* Implies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implies.swift; sourceTree = "<group>"; };
+		27ECFEE72C47A66400A1C51A /* ImpliesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpliesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,7 @@
 		27C122622BFC974600F824AE /* iCode */ = {
 			isa = PBXGroup;
 			children = (
+				27ECFEE02C479E8F00A1C51A /* Operators */,
 				27C122632BFC974600F824AE /* iCode.h */,
 				27C122642BFC974600F824AE /* iCode.docc */,
 			);
@@ -83,9 +89,26 @@
 		27C1226E2BFC974600F824AE /* iCodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				27ECFEE32C47A13C00A1C51A /* OperatorTests */,
 				27C1226F2BFC974600F824AE /* iCodeTests.swift */,
 			);
 			path = iCodeTests;
+			sourceTree = "<group>";
+		};
+		27ECFEE02C479E8F00A1C51A /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				27ECFEE12C479EF800A1C51A /* Implies.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		27ECFEE32C47A13C00A1C51A /* OperatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				27ECFEE72C47A66400A1C51A /* ImpliesTests.swift */,
+			);
+			path = OperatorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C122652BFC974600F824AE /* iCode.docc in Sources */,
+				27ECFEE22C479EF800A1C51A /* Implies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27ECFEE82C47A66400A1C51A /* ImpliesTests.swift in Sources */,
+				27ECFEE62C47A5ED00A1C51A /* Implies.swift in Sources */,
 				27C122702BFC974600F824AE /* iCodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +441,7 @@
 		27C122782BFC974600F824AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 836SQ257Z6;
@@ -431,6 +458,7 @@
 		27C122792BFC974600F824AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 836SQ257Z6;
